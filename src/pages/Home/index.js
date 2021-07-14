@@ -10,6 +10,7 @@ const Home = () => (
       <h1 className={styles.title}>React Starter Kit</h1>
       <h1 className={styles.title}>Edit ./components and save to reload.</h1>
       <p>{nanoid()}</p>
+      <h2>Hello this is just a test to see if it hot reloads</h2>
     </div>
   </div>
 );
